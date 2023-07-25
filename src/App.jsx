@@ -10,12 +10,18 @@ import ClickablePicture from "./components/ClickablePicture";
 
 import "./App.css";
 import LikeButton from "./components/LikeButton";
+import Dice from "./components/Dice";
 
 function App() {
   return (
     <div className="App">
       <h1> LAB | React Training</h1>
-
+    <Dice/>
+    <Dice/>
+    <Dice/>
+    <Dice/>
+    <Dice/>
+    <Dice/>
     </div>
   );
 }
